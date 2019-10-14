@@ -9,6 +9,7 @@ val scalaFXVersion = s"$javaFXVersion-R18"
 libraryDependencies ++= Seq(
   "org.scalafx" %% "scalafx" % scalaFXVersion
  ,"org.scala-lang.modules" %% "scala-parser-combinators" % "1.1.2"
+ ,"com.beachape" %% "enumeratum" % "1.5.13"
 )
 
 // Determine OS version of JavaFX binaries
